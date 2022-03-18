@@ -1,6 +1,4 @@
 name: "bot"
-description: "comment on new pull requests"
-author: "Jerell"
 on:
   # Triggers the workflow on pull request events but only for the main branch
   pull_request:
