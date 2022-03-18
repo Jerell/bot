@@ -1,0 +1,12 @@
+name: "bot"
+description: "comment on new pull requests"
+author: "Jerell"
+
+inputs:
+  GITHUB_TOKEN:
+    description: "GitHub token"
+    required: true
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
